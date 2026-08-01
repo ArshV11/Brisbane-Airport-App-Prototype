@@ -3,7 +3,7 @@
 Purpose: Creating a well-documented and easy-to-maintain application that handles planes arriving and departing, as well as passengers. Language used is C#.  
   (NOTE: This is currently a prototype, designed to be easily extendable and modifiable.)
   
-### User Stories:  
+## User Stories:  
   * 1a) As a user (traveller, frequent flyer, or flight manager), I would like to register with the application using my name, age, email address, mobile number, and password so that my account remains private and secure.  
   * 1b) As a user, I want to authenticate myself using my email and password so that I can access my private records and conduct transactions securely.  
   * 1c) As a user, I would like to view my registered details (name, age, email address, and mobile number) so that I can verify my information is recorded correctly.  
@@ -30,3 +30,17 @@ Purpose: Creating a well-documented and easy-to-maintain application that handle
   * 4h) As a frequent flyer, I would like to view the number of points earned for each flight so that I can track my progress towards rewards.  
   * 4i) As a flight manager, I would like to update a flight’s status when it is delayed so that travellers and frequent flyers are kept informed.  
   * 4j) As a flight manager, I would like the system to automatically adjust departure times by the same duration when the corresponding arrival flight is delayed so that passengers receive accurate information.  
+
+## File Summaries
+<h3>AirportSystem</h3> Manages users, flights and bookings within the Brisbane Airport App system.  
+<h3>ArrivalFlight</h3> Represents a flight arriving at Brisbane Airport.  
+<h3>Booking</h3> Represents the flight booking made by a user, including their unique user ID, the associated flight or plane ID, and the seat they have been assigned.  
+<h3>DepartureFlight</h3> Represents a flight departing from Brisbane Airport.  
+<h3>Enums</h3> Contains special user-defined data types.  
+<h3>Flight</h3> Represents a base class for a generic flight containing shared information for both arrival and departure flights.  
+<h3>FlightManager</h3> Represents a flight manager with administrative access to flight operations.  
+<h3>FrequentFlyer</h3> Represents a registered traveller with a frequent flyer membership.  
+<h3>Program</h3> The main entry point for the Brisbane Airport application.  
+<h3>Traveller</h3> Represents a standard traveller who can book both arrival and departure flights.  
+<h3>Users</h3> Represents the base class for all user types in the Brisbane Airport system.  
+<h3>Validators</h3> Provides static validation methods for user and flight data.  
