@@ -1,7 +1,13 @@
 # Brisbane-Airport-Application-Prototype  
 
-Purpose: Creating a well-documented and easy-to-maintain application that handles planes arriving and departing, as well as passengers. Language used is C#.  
-  (NOTE: This is currently a prototype, designed to be easily extendable and modifiable.)
+<h3>Purpose</h3>
+Creating a well-documented and easy-to-maintain application that handles planes arriving and departing, as well as passengers. Language used is C#.  
+
+NOTE: This is currently a prototype, designed to be easily extendable and modifiable.  
+
+Future work directions:  
+* Currently, the prototype implements a text-based user interface. This can be developed into a graphical user interface in the future. To allow this, the user interface code has been kept separate from the application code.
+* Currently, the prototype runs on volatile memory (data lost when application is closed). A relational database can be used to store and save all data in future versions.
   
 ## User Stories:  
   * 1a) As a user (traveller, frequent flyer, or flight manager), I would like to register with the application using my name, age, email address, mobile number, and password so that my account remains private and secure.  
